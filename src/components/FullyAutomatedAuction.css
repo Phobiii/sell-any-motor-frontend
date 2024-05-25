@@ -1,0 +1,41 @@
+.fully-automated-auction {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+
+.fully-automated-auction .container {
+    display: flex;
+    align-items: center;
+}
+
+.fully-automated-auction img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.fully-automated-auction h2 {
+    font-size: 32px; /* Match the font size */
+    font-weight: bold;
+    color: #333;
+}
+
+.fully-automated-auction p {
+    font-size: 18px; /* Match the font size */
+    color: #666;
+}
+
+.fully-automated-auction a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.fully-automated-auction a:hover {
+    text-decoration: underline;
+}
+
+.fully-automated-auction .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 20px; /* Match the font size */
+    padding: 10px 20px; /* Add padding */
+}

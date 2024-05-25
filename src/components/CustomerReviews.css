@@ -1,0 +1,111 @@
+.customer-reviews {
+    padding: 40px 0;
+    background-color: #f5f7fa;
+}
+
+.customer-reviews h2 {
+    font-size: 28px; /* Match the font size */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.customer-reviews .carousel-controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.customer-reviews .carousel-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Ensure space around elements */
+    width: 150px; /* Adjust width to fit elements */
+}
+
+.customer-reviews .carousel-control-prev, .customer-reviews .carousel-control-next {
+    background-color: transparent;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.customer-reviews .carousel-control-prev::before, .customer-reviews .carousel-control-next::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #007bff;
+    border-right: 2px solid #007bff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.customer-reviews .carousel-control-prev::before {
+    transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.customer-reviews .carousel-control-next::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.customer-reviews .carousel-indicators {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer-reviews .carousel-indicators .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.customer-reviews .carousel-indicators .dot.active {
+    background-color: #0056b3;
+}
+
+.review-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.review-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.review-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.review-card .stars {
+    font-size: 18px;
+    color: #ffc107;
+}

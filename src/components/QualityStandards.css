@@ -1,0 +1,95 @@
+.quality-standards {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.quality-standards h2 {
+    font-size: 32px; /* Match the font size */
+    font-weight: bold;
+    color: #333;
+}
+
+.quality-standards p {
+    font-size: 18px; /* Match the font size */
+    color: #666;
+}
+
+.quality-standards a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.quality-standards a:hover {
+    text-decoration: underline;
+}
+
+.quality-standards .quality-car-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carousel-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Ensure space around elements */
+    width: 300px; /* Adjust width to fit elements */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: transparent;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.carousel-control-prev::before, .carousel-control-next::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #007bff;
+    border-right: 2px solid #007bff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-control-prev::before {
+    transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.carousel-control-next::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.carousel-indicators {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-indicators .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel-indicators .dot.active {
+    background-color: #0056b3;
+}

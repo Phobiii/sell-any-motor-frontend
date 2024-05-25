@@ -1,0 +1,52 @@
+.comprehensive-services {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.comprehensive-services h2 {
+    font-size: 32px; /* Match the font size */
+    font-weight: bold;
+    color: #333;
+}
+
+.comprehensive-services .subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.comprehensive-services .service-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.comprehensive-services .service-icon {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.comprehensive-services h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.comprehensive-services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.comprehensive-services ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.comprehensive-services .check-icon {
+    color: #007bff;
+    margin-right: 10px;
+}

@@ -1,0 +1,34 @@
+.help-section {
+    background-color: #3e72b4;
+    color: white;
+    padding: 40px 0;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.help-section h2 {
+    font-size: 32px; /* Match the font size */
+    font-weight: bold;
+}
+
+.help-section p {
+    font-size: 18px; /* Match the font size */
+    color: white;
+}
+
+.help-section .btn-orange {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    font-size: 20px; /* Match the font size */
+    padding: 10px 20px; /* Add padding */
+}
+
+.help-section .btn-orange:hover {
+    background-color: #e65c00;
+    border-color: #e65c00;
+}
+
+.robot-image {
+    max-width: 100%;
+    height: auto;
+}

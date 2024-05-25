@@ -1,0 +1,24 @@
+/* src/components/Header.css */
+.header {
+    margin-bottom: 20px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .dropdown-menu {
+    min-width: 160px;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.navbar-nav.ml-auto {
+    margin-left: auto !important;
+}
