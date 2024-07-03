@@ -16,7 +16,7 @@ const ThoroughCarInspection = () => {
                     </div>
                     <div className="col-md-6">
                         <div className="inspection-card">
-                            <img src="https://source.unsplash.com/random/600x400?car" alt="Car Inspection" className="img-fluid" />
+                            <img src="https://via.placeholder.com/150" alt="Thumbnail 1" className="img-thumbnail" />
                             <div className="inspection-details">
                                 <h5>Škoda Octavia 2.0 TSI DSG RS 180 kW</h5>
                                 <ul>

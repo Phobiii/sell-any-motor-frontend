@@ -3,26 +3,6 @@
     padding: 20px;
 }
 
-.sidebar {
-    background-color: #ffffff;
-    border-right: 1px solid #dee2e6;
-    height: 100vh;
-    padding-top: 20px;
-}
-
-.nav-link {
-    color: #007bff;
-    font-weight: 500;
-}
-
-.nav-link:hover {
-    text-decoration: none;
-}
-
-.main-content {
-    padding: 20px;
-}
-
 .hero-section {
     position: relative;
     text-align: center;

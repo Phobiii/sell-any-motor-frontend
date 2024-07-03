@@ -1,0 +1,126 @@
+.buy-or-bid {
+    padding: 20px;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.pagination-controls {
+    display: flex;
+    align-items: center;
+}
+
+.pagination-arrow, .pagination-page {
+    border: none;
+    background: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pagination-page.active {
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    color: #007bff;
+}
+
+.pagination-arrow:disabled, .pagination-page:disabled {
+    cursor: not-allowed;
+    color: #ccc;
+}
+
+.filter-sidebar {
+    width: 200px;
+    margin-right: 20px;
+    float: left;
+}
+
+.filter-sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.filter-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.filter-section input, .filter-section select, .filter-section button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.color-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.car-listing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 220px;
+}
+
+.car-card {
+    width: calc(25% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.car-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.car-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.car-card p {
+    margin-bottom: 5px;
+}
+
+.car-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-button {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}

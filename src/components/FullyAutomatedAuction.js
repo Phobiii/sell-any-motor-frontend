@@ -8,7 +8,7 @@ const FullyAutomatedAuction = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-6">
-                        <img src="https://source.unsplash.com/random/600x400?car" alt="Car" className="img-fluid" />
+                        <img src="https://via.placeholder.com/600x400" alt="Thumbnail 1" className="img-thumbnail" />
                     </div>
                     <div className="col-md-6">
                         <h2>Fully Automated Car Auction</h2>

@@ -1,0 +1,124 @@
+.view-car-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    border-right: 1px solid #dee2e6;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.nav-link {
+    color: #007bff;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.car-image {
+    position: relative;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-bid {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.thumbnail-images .img-thumbnail {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.details-nav {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+}
+
+.details-nav .nav-link {
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.details-nav .nav-link.active {
+    color: #007bff;
+    font-weight: 700;
+}
+
+.details-section, .features-section, .inspection-section, .comparison-section {
+    margin-top: 20px;
+}
+
+.details-section .card, .features-section .card, .inspection-section .card, .comparison-section .card {
+    margin-bottom: 20px;
+}
+
+.details-section .card-title, .features-section .card-title, .inspection-section .card-title, .comparison-section .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.details-section .table, .features-section .features-list, .inspection-section .damage-list, .comparison-section .table {
+    margin-bottom: 0;
+}
+
+.details-section .table td, .features-section .features-list li, .inspection-section .damage-list li, .comparison-section .table td {
+    border-top: none;
+    padding: 5px 10px;
+    color: #007bff;
+}
+
+.features-list, .damage-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list li, .damage-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.features-list li::before, .damage-list li::before {
+    content: '•';
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-right: 5px;
+}
+
+.comparison-card .comparison-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.comparison-section .card-title {
+    text-align: center;
+    font-size: 1.5rem;
+}
